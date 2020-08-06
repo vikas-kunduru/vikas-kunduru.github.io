@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href='img/BCC.jpg'  type="icon/x-icon" />
+        <title>Asset Services Job Request</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+        />
+        <link rel="stylesheet" href='css/style.css'  />
+        <script
+          defer
+          src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+        ></script>
+      </head>
+<body>
+  <section class="hero is-fullheight">   
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href='index.html'>
+              <img src='img/BCC.jpg' alt=BCC />
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end flex-column">                      
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    <i class="fas fa-user"></i> 
+                  </a>          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" href="myRequests.html">
+                      See my Requests
+                    </a>
+                    <a class="navbar-item" href="mailto:gisadmin@brimbank.vic.gov.au"> 
+                      <span>Contact</span> 
+                    </a>                      
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="index.html"> 
+                      <span>Logout</span> 
+                    </a> 
+                  </div>
+                </div>
+                <a class="navbar-item" href="jobRequestForm.html">                     
+                  <span>Hello User</span>                                       
+                </a>              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Body content start -->
+    <div class="hero-body">  
+      <div class="container is-vcentered">  
+ 
+            
+    <div class="columns is-vcentered">
+      <div class="column">
+      
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">                
+            <input class="input" type="text"  name="fullname" value= "Isaac Abraham" readonly>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left">
+            <input class="input" type="email" name='email' value="IsaacA@brimbank.vic.gov.au" readonly>
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>                
+          </div>
+        </div>
+        
+        
+        <div class="field is-6">
+          <label class="label">Department</label>
+          <input class="input" name='department' value="Library Services" readonly>
+        </div>
+        
+        <div class="columns">
+          <div class="column">
+            <div class="field is-6">
+              <label class="label">Type of Request <i class="has-text-danger">*</i></label>
+              <div class="control">
+                <div class="select">
+                  <select name='typeofrequest'>
+                    <option>select</option>
+                    <option>Map Request</option>
+                    <option>Data Supply</option>
+                    <option>SSA Update</option>
+                    <option>Training Request</option>
+                    <option>Others</option>
+                  </select>                      
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="field is-6">
+              <label class="label">Priority <i class="has-text-danger">*</i></label>
+              <div class="control">
+                <div class="select">
+                  <select name='priority'>
+                    <option>select</option>
+                    <option>High</option>
+                    <option>Medium </option>
+                    <option>Low</option>                   
+                  </select>                      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <div class="column">
+        
+        <div class="field">
+          <label class="label">Additional Information <i class="has-text-danger">*</i></label>
+          <div class="control">
+            <textarea class="textarea" placeholder="..." name='additionalinfo'></textarea>
+          </div>                  
+        </div>
+
+
+        <div class="columns">
+        
+            <div class="column">
+                <div class="file has-name">
+                  <label class="file-label">
+                    <input class="file-input" type="file" name="resume">
+                    <span class="file-cta">
+                      <span class="file-icon">
+                        <i class="fas fa-upload"></i>
+                      </span>
+                      <span class="file-label">
+                        Choose a file…
+                      </span>
+                    </span>
+                    <span class="file-name">
+                      Uploaded Files: will be display here 
+                    </span>
+                  </label>
+                </div>                
+            </div>
+            
+          </div>
+          
+        
+          <div class="field">
+            <div class="control">
+              Our <a href="#">terms and conditions</a>
+            </label>
+          </div>
+        </div> 
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-primary">Submit</button>
+          </div>
+          <div class="control is-left">              
+            <button class="button is-link is-light">
+              Cancel
+            </button> 
+        </div>   
+          
+          <div class="control is-vcentered">
+            <p class="has-text-centered"><b class='has-text-success'>Success</b> / <b class='has-text-danger'>Error</b></p>
+            <p class="has-text-centered">messages will be printed here</p></p>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+     
+      </div> 
+    </div> 
+  </section>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
