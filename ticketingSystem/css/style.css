@@ -1,0 +1,72 @@
+.navbar{
+  margin-top: 5px;
+}
+
+figure{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+li{
+  padding-left: 5%;
+}
+
+.resume-btn:hover{
+  box-shadow: 0px 15px 20px #2A13BD;
+  transform: translateY(-7px); 
+  background-color: #2A13BD; 
+  color: white; 
+  vertical-align:middle; 
+}
+
+.resume-btn{
+  color: white; 
+  vertical-align:middle;
+  background-color: #2A13BD; 
+}
+
+/*.button{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.4s ease 0s;
+}*/
+
+
+.project{
+  /*Work page tiles*/      
+  border:5px thin;
+  padding: 3% 3%;
+  box-shadow: 0px 0.5px 3px #2A13BD;  
+}
+
+body, #navbarMenu, .bgcolor{
+  /*bgcolor is buttons with color same as body*/
+  background-color:rgb(230,230,250);
+}
+
+.navbar-item:hover, .nav1{
+  /*nav1 = is-active*/
+  background-color: rgb(223, 223, 246) !important;
+  color: black !important;
+}
+
+.txtcolor, .txtcolor:hover{ 
+  /*text color where all the highlighted words are color: #2A13BD;*/
+  color: #2A13BD;
+}
+
+.icons{ /*icons in footer and home*/
+  color:black; 
+  opacity: 50%
+}
+
+.resume-btn:hover, .resume-btn, .bgcolor{
+  border-color: #2A13BD;
+}
+
+.bgcolor:hover{
+  color: whitesmoke;
+  background-color: #2A13BD;
+  border-color: #2A13BD;
+}

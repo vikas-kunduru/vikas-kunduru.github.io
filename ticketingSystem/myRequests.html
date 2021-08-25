@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href='img/BCC.jpg'  type="icon/x-icon" />
+        <title>Asset Services Job Request</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+        />
+        <link rel="stylesheet" href='css/style.css'  />
+        <script
+          defer
+          src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+        ></script>
+      </head>
+<body>
+  <section class="hero is-fullheight">   
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href='index.html'>
+              <img src='img/BCC.jpg' alt=BCC />
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end flex-column">                      
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    <i class="fas fa-user"></i> 
+                  </a>          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" href="myRequests.html">
+                      See my Requests
+                    </a>
+                    <a class="navbar-item" href="mailto:gisadmin@brimbank.vic.gov.au"> 
+                      <span>Contact</span> 
+                    </a>                      
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="index.html"> 
+                      <span>Logout</span> 
+                    </a> 
+                  </div>
+                </div>
+                <a class="navbar-item" href="jobRequestForm.html">                     
+                  <span>Hello User</span>                                       
+                </a>              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Body content start -->
+    <div class="hero-body">  
+      <div class="container is-vcentered">  
+ 
+              <table class="table" style="margin:auto;"> 
+                  <thead>
+                    <tr> 
+                      <th  class="has-text-centered">Job No</th>                 
+                      <th  class="has-text-centered">Priority</th>
+                      <th  class="has-text-centered">Type Of Request</th>              
+                      <th  class="has-text-centered">Request Date</th>
+                      <th  class="has-text-centered">Officer Assigned</th>
+                      <th  class="has-text-centered">Progress</th>
+                      <th  class="has-text-centered">Output Files</th>
+                      <th  class="has-text-centered">Details</th>                  
+                    </tr>
+                  </thead>
+              
+                  <tbody>            
+                    
+                    <tr>
+                      <td class="has-text-centered">2707</td>
+                      <td class="has-text-centered">High</td>
+                      <td class="has-text-centered">Map Request</td>                
+                      <td class="has-text-centered">03 Nov 2020</td>
+                      <td class="has-text-centered">Caleb Kantepudi</td>
+                      <td class="has-text-centered">Open</td>                      
+                      <td class="has-text-centered">Map.pdf</td> 
+                      <td class="has-text-centered">
+                        <a class="has-text-centered" href="userDetailedView.html">
+                          <button class="button has-text-primary is-small is-rounded">
+                            <i class="fas fa-arrow-right"></i>
+                          </button>
+                        </a>
+                      </td>          
+                    </tr>             
+                    
+                    
+                    
+                    <tr>
+                      <td class="has-text-centered">2605</td>
+                      <td class="has-text-centered">Medium</td>
+                      <td class="has-text-centered">Data Supply</td>                
+                      <td class="has-text-centered">20 Mar 2020</td>
+                      <td class="has-text-centered">Bright Osagiede</td>
+                      <td class="has-text-centered">Completed</td>                      
+                      <td class="has-text-centered">HillSide.zip</td> 
+                      <td class="has-text-centered">
+                        <a class="has-text-centered" href="userDetailedView.html">
+                          <button class="button has-text-primary is-small is-rounded">
+                            <i class="fas fa-arrow-right"></i>
+                          </button>
+                        </a>
+                      </td>          
+                    </tr>    
+                  </tbody>
+              </table>
+  
+     
+      </div> 
+    </div> 
+  </section>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
